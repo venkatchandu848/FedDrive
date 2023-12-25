@@ -220,6 +220,8 @@ class SegmentBranch(nn.Module):
 
 class BGALayer(nn.Module):
 
+    """ BGA -- BOUNDARY AWARE GUIDED AGGREGATION LAYER """
+
     def __init__(self):
         super(BGALayer, self).__init__()
         self.left1 = nn.Sequential(
